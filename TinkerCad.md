@@ -1,3 +1,15 @@
+### Switches 
+
+- The power/ground goes in the common / middle
+- The part that the gray part is facing is where the input is being dircted
+
+![image](https://github.com/0Domlightning0/TheJournal/assets/99225898/803d0353-1d21-4dae-8c49-bc63ef9fe46d)
+
+### LED
+
+- Long end recives positive / power / red 
+- Short end recives negative / ground / black
+
 ### Servo
 
 - Red wire = power / in the middle
@@ -40,6 +52,8 @@
 - Purple wire = Echo / right / ECHO
 - Black wire = Ground / very right / GND
 - Measures the distance to the nearest object in inches or cm
+
+![image](https://github.com/0Domlightning0/TheJournal/assets/99225898/54b8b3cf-f62a-426f-bddb-8fb9c7eb1bc9)
 
 
 
