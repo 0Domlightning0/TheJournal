@@ -28,5 +28,23 @@
 
 ### Piezo 
 
+- Red wire = power / left side
+- Black wire = ground / right side
+- Small metal that vibrates 
+- Creates sound based on "Tone" / frequency 
+
+### Ultrasonic sensor 
+
+- Red wire = Power / very left / Vcc
+- Blue wire = Tigger / left / TRIG
+- Purple wire = Echo / right / ECHO
+- Black wire = Ground / very right / GND
+- Measures the distance to the nearest object in inches or cm
+
+
+
+
+
+
 
 
