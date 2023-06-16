@@ -18,4 +18,5 @@ https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#implicit-a
 ( https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#brute-force )
 - Complexity = less accuracy / less time. Shown with alphabet   
 - ( https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#brute-force )
+- Sending around 2b/s of info
 
