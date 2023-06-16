@@ -1,6 +1,8 @@
 # Protocol
 A set of rules used to comminicate between parties 
 
+https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#implicit-agreements
+
 ## Real life example of I2C
 - Uses time inbetween bursts of power using an internal clock 
 - Uses mere milliseconds to tell the difference 
@@ -11,7 +13,8 @@ A set of rules used to comminicate between parties
 ## Our protocol 
 - Using 3 flags we created a 4 trit system to call upon specific characters to be presetned
 - Other trit commands to complete non character commans
-- Simplicity = more accuracy / more time shown with brute force https://github.com/0Domlightning0/TheJournal/blob/main/ImplicitAgreements.md
-- Complexity = less accuracy / less time
-- 
+- Simplicity = more accuracy / more time. Shown with brute force  
+( https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#brute-force )
+- Complexity = less accuracy / less time. Shown with alphabet   
+- ( https://github.com/0Domlightning0/TheJournal/blob/main/ProtocolDoc.md#brute-force )
 
