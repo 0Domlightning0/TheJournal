@@ -102,10 +102,15 @@ https://github.com/0Domlightning0/MachineLearningOffical/blob/main/CompleteScuff
 
 print(reg.score(df[['Enrolment',"Latitude","Longitude","PercentageofStudentsWhoseFirstLanguageIsNotEnglish","PercentageofStudentsWhoseFirstLanguageIsNotFrench","PercentageofStudentsWhoAreNewtoCanadafromaNonEnglishSpeakingCountry","PercentageofStudentsWhoAreNewtoCanadafromaNonFrenchSpeakingCountry","PercentageofStudentsReceivingSpecialEducationServices","PercentageofStudentsIdentifiedasGifted","PercentageofGrade3StudentsAchievingtheProvincialStandardinReading","ChangeinGrade3ReadingAchievementOverThreeYears","PercentageofGrade3StudentsAchievingtheProvincialStandardinWriting","ChangeinGrade3WritingAchievementOverThreeYears","PercentageofGrade3StudentsAchievingtheProvincialStandardinMathematics","ChangeinGrade3MathematicsAchievementOverThreeYears"]].values , df.PercentageofGrade6StudentsAchievingtheProvincialStandardinMathematics  ))
 
-- The .score function will use the prdict function on all 
+### Score on SKLearn
+
+- The .score function will use the predict function on all the data to find how accurate it is
 - It is important to change df from your training.csv set df = pd.read_csv('https://raw.githubusercontent.com/0Domlightning0/MachineLearningOffical/main/OSSLT_Train.csv')   (https://github.com/0Domlightning0/MachineLearningOffical/blob/main/CompleteScuffed.py#L14)
 - To your evaluation.csv set that the program has never seen before df = pd.read_csv("https://raw.githubusercontent.com/0Domlightning0/MachineLearningOffical/main/OSSLT_Eval.csv")
-
+- The score function will provide a R^2 value
+- This value will show you how much the program knows about the final resault using the variables
+- If your R^2 value is high, that is good
+- For example if your R^2 value is .78 that means that your variables are responsible for 78% of the outcome, while the other 22% is chnaged by unknown factors
 
 
 
