@@ -102,7 +102,7 @@ https://github.com/0Domlightning0/MachineLearningOffical/blob/main/CompleteScuff
 
 print(reg.score(df[['Enrolment',"Latitude","Longitude","PercentageofStudentsWhoseFirstLanguageIsNotEnglish","PercentageofStudentsWhoseFirstLanguageIsNotFrench","PercentageofStudentsWhoAreNewtoCanadafromaNonEnglishSpeakingCountry","PercentageofStudentsWhoAreNewtoCanadafromaNonFrenchSpeakingCountry","PercentageofStudentsReceivingSpecialEducationServices","PercentageofStudentsIdentifiedasGifted","PercentageofGrade3StudentsAchievingtheProvincialStandardinReading","ChangeinGrade3ReadingAchievementOverThreeYears","PercentageofGrade3StudentsAchievingtheProvincialStandardinWriting","ChangeinGrade3WritingAchievementOverThreeYears","PercentageofGrade3StudentsAchievingtheProvincialStandardinMathematics","ChangeinGrade3MathematicsAchievementOverThreeYears"]].values , df.PercentageofGrade6StudentsAchievingtheProvincialStandardinMathematics  ))
 
-### Score on SKLearn
+## Score on SKLearn
 
 - The .score function will use the predict function on all the data to find how accurate it is
 - It is important to change df from your training.csv set df = pd.read_csv('https://raw.githubusercontent.com/0Domlightning0/MachineLearningOffical/main/OSSLT_Train.csv')   (https://github.com/0Domlightning0/MachineLearningOffical/blob/main/CompleteScuffed.py#L14)
