@@ -36,7 +36,7 @@ abalone_model.compile(loss = tf.keras.losses.MeanSquaredError(),
 - loss = ![image](https://github.com/0Domlightning0/TheJournal/assets/99225898/f60408bb-303f-4dca-961a-d63c1f838c80)  
 - Very prone to outliers, 1 variable off by 10 in a perfect set of 100 means all are off by 1 according to the error
 
-# Line 39 
+### Line 39 
 https://github.com/0Domlightning0/MachineLearningOffical/blob/main/TensorFlowOSSLT.py#L39
 
 abalone_model.fit(abalone_features, abalone_labels, epochs=1000)
