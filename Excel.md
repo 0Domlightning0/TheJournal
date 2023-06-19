@@ -28,4 +28,11 @@ Right click where you cant to paste and click paste options and transpose
 
 ![image](https://github.com/0Domlightning0/TheJournal/assets/99225898/1722eff9-14a4-4c96-8bb6-69c8f0ce087c)
 
-## Step 2
+## Step 2 Converting excel numbers into a python list
+
+Copy the Horizontal data in excess and paste in teststring =  making sure to keep the numbers inside the quotes
+
+#### Code  
+https://github.com/0Domlightning0/MachineLearningOffical/blob/main/ConvertExcelToList.py
+
+Run the code and copy the list from the output
